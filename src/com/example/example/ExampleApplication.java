@@ -2,7 +2,6 @@ package com.example.example;
 
 import com.vaadin.Application;
 import com.vaadin.ui.Button;
-import com.vaadin.ui.Component;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.HorizontalSplitPanel;
 import com.vaadin.ui.VerticalLayout;
@@ -22,10 +21,7 @@ public class ExampleApplication extends Application {
 	public void init() {
 		buildMainLayout();
 	}
-
-	// private void buildMainLayout() {
-	// setMainWindow(new Window("Address Book Demo application"));
-	// }
+	
 	private NavigationTree tree = new NavigationTree();
 	private Button newContact = new Button("Add contact");
 	private Button search = new Button("Search");
